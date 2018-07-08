@@ -62,3 +62,29 @@ myText(document.body,'kk');
 myText1(document.body, 'kuk');
 
 // Области видимости
+
+var a = 'hi';
+
+function func1() {
+	a = 'hello';
+	return a;
+}
+
+console.log(a);
+
+function func2(){
+	var b = 3;
+	console.log(b);
+}
+
+func2();
+
+if(true) {
+	var c = 5;
+	let l = 7;
+}
+
+console.log(c); // видно
+console.log(l) // не видно (ошибка)
+
+
