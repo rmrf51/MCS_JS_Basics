@@ -87,4 +87,3 @@ if(true) {
 console.log(c); // видно
 console.log(l) // не видно (ошибка)
 
-

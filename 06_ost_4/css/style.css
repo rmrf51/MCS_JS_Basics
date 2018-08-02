@@ -1,0 +1,10 @@
+@import url(reset.css);
+
+body {
+	background-color: lightgray;
+}
+
+p {
+	margin-top: 2000px;
+	display: none; 
+}
